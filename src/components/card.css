@@ -1,0 +1,7 @@
+.cardulet {
+  width: 200px;
+  height: 210px;
+  flex-direction: column;
+  display: flex;
+  margin: 2rem;
+}

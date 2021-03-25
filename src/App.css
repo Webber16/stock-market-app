@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+/* App {
   display: flex;
-  flex-direction: column;
+
+  padding: 2%;
+} */
+
+/* .cardurile {
+  display: flex;
+}
+
+.dropdown {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+} */
+
+.corp {
+  padding: 4%;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  height: 1000px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.titlu {
+  font-family: "Jura";
+  font-size: 80px;
+  padding-top: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
 }
